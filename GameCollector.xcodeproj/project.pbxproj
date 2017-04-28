@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4662F89D1EB3335400637AE3 /* Fifa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4662F89C1EB3335400637AE3 /* Fifa.jpg */; };
+		4662F89F1EB334C000637AE3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662F89E1EB334C000637AE3 /* GameViewController.swift */; };
 		4685D3781EB251BD00A00EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685D3771EB251BD00A00EE0 /* AppDelegate.swift */; };
 		4685D37A1EB251BD00A00EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685D3791EB251BD00A00EE0 /* ViewController.swift */; };
 		4685D37D1EB251BD00A00EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4685D37B1EB251BD00A00EE0 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4662F89C1EB3335400637AE3 /* Fifa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fifa.jpg; sourceTree = "<group>"; };
+		4662F89E1EB334C000637AE3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4685D3741EB251BD00A00EE0 /* GameCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4685D3771EB251BD00A00EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4685D3791EB251BD00A00EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				4685D3771EB251BD00A00EE0 /* AppDelegate.swift */,
 				4685D3791EB251BD00A00EE0 /* ViewController.swift */,
+				4662F89C1EB3335400637AE3 /* Fifa.jpg */,
 				4685D37B1EB251BD00A00EE0 /* Main.storyboard */,
+				4662F89E1EB334C000637AE3 /* GameViewController.swift */,
 				4685D3811EB251BD00A00EE0 /* Assets.xcassets */,
 				4685D3831EB251BD00A00EE0 /* LaunchScreen.storyboard */,
 				4685D3861EB251BD00A00EE0 /* Info.plist */,
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4685D3851EB251BD00A00EE0 /* LaunchScreen.storyboard in Resources */,
+				4662F89D1EB3335400637AE3 /* Fifa.jpg in Resources */,
 				4685D3821EB251BD00A00EE0 /* Assets.xcassets in Resources */,
 				4685D37D1EB251BD00A00EE0 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4662F89F1EB334C000637AE3 /* GameViewController.swift in Sources */,
 				4685D3801EB251BD00A00EE0 /* GameCollector.xcdatamodeld in Sources */,
 				4685D37A1EB251BD00A00EE0 /* ViewController.swift in Sources */,
 				4685D3781EB251BD00A00EE0 /* AppDelegate.swift in Sources */,
@@ -308,6 +316,7 @@
 				4685D38B1EB251BD00A00EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
